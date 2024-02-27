@@ -8,6 +8,7 @@ use Kirby\Cms\Field;
 use Kirby\Cms\Page;
 use PedroBorges\MetaTags\MetaTags as Tags;
 
+#[\AllowDynamicProperties]
 class MetaTags
 {
     public $tags;
